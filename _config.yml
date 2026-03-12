@@ -57,9 +57,13 @@ plugins:
 
 # Navigation links
 nav:
-  - title: Home
+  - title: About me
     url: /
-  - title: About
-    url: /about
+  - title: Work experience
+    url: /work-experience
+  - title: CV
+    url: /cv
   - title: Projects
     url: /projects
+  - title: Useful links
+    url: /useful-links
