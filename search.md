@@ -1,0 +1,13 @@
+---
+layout: default
+title: Search
+permalink: /search/
+---
+
+<section class="page-content">
+  <h3>Search Results</h3>
+
+  <div id="page-search-results"
+       style="border: 1px dashed #ccc; min-height: 100px; padding: 10px;">
+  </div>
+</section>

@@ -1,0 +1,31 @@
+name: "Dr. Sajan Kumar"
+title: "Data Scientist"
+bio: |
+  I am an astrophysicist with a PhD and over 10 years of hands-on experience in large-scale data analysis, machine learning, and scientific computing. My research investigates the origin and nature of high-energy cosmic rays produced by some of the most extreme phenomena in the universe — supernovae and their remnants, pulsars and pulsar wind nebulae, gamma-ray bursts, and accreting black holes.
+
+  I specialize in extracting physical signals from high-dimensional, background-dominated datasets collected by ground-based gamma-ray observatories, including [VERITAS](https://veritas.sao.arizona.edu) and [HAWC](https://www.hawc-observatory.org). I have developed end-to-end data processing pipelines, implemented advanced statistical models, and applied machine learning techniques to detect rare astrophysical events in high-dimensional data.
+  
+  Over the course of my career, I have developed strong expertise in:
+   - **Python scientific stack** — NumPy, Scipy, pandas, scikit-learn, PyTorch, and custom analysis frameworks built for terabyte-scale telescope data
+   - **Machine learning** — Anomaly detection, classification, and clustering on high-dimensional imbalanced datasets; model evaluation under real-world noise conditions
+   - **LLM pipelines** — RAG system design, semantic search with dense embeddings, and query generation for scientific literature retrieval
+   - **Statistical modelling** — Maximum likelihood estimation, Bayesian inference, and hypothesis testing on sparse astrophysical signals
+   - **Data visualization** —  Matplotlib, Plotly, and interactive dashboards for exploratory analysis (streamlit) and publication-quality figures
+   - **Data engineering** — End-to-end pipeline design, workflow automation (Airflow), and distributed processing on HPC clusters using Slurm, containerization with Docker
+   - **Data infrastructure & tooling** — Relational databases (PostgreSQL, MySQL), Vector databases (chromadb), and Git-based collaborative workflows
+   - **Team leadership** — Led cross-institutional research collaborations across multiple countries; mentored graduate students and junior researchers
+   - **Scientific communication** — authored 50+ peer-reviewed publications
+    in high-impact journals (ApJ, A&A, MNRAS); delivered 20+ presentations
+    at international conferences (ICRC, HEAD, TeVPA, NASA, AAS); experienced in
+    translating complex technical results into clear narratives for
+    both specialist and non-specialist audiences.
+
+
+  <br>
+  I am seeking to transition into industry, applying my expertise in
+  large-scale data analysis, machine learning, and LLMs to drive
+  real-world impact in data science or ML engineering roles.
+
+email: skumarudel@gmail.com
+github: https://github.com/skumarudel
+linkedin: https://www.linkedin.com/in/skumarudel/

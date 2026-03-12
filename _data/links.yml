@@ -1,0 +1,21 @@
+# Useful links – add your profile URLs and any other links
+links:
+  - title: "My Google Scholar profile"
+    url: "https://scholar.google.com/citations?user=y9zCm5kAAAAJ&hl=en"
+    description: "My publications and citations"
+
+  - title: "NASA-ADS"
+    url: "https://ui.adsabs.harvard.edu/search/q=orcid%3A0000-0002-5167-1221&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+    description: "Very High-energy astrophysics literature and my profile"
+
+  - title: "Data Science for Physicists (my course repo)"
+    url: "https://github.com/skumarudel/DSPS_SKumar"
+    description: "Course materials and notebooks for Data Science for Physicists – statistics, ML, and deep learning examples."
+
+  # Add more links as needed, e.g.:
+  # - title: "ORCID"
+  #   url: "https://orcid.org/0000-0000-0000-0000"
+  #   description: "Researcher identifier"
+  # - title: "arXiv"
+  #   url: "https://arxiv.org/search/?searchtype=author&query=Kumar%2C+S"
+  #   description: "Preprints"

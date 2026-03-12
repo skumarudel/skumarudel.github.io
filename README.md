@@ -1,2 +1,2 @@
-# skumarudel.github.io
-My personal website
+My personal website built with Jekyll.
+

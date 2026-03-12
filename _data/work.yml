@@ -1,0 +1,40 @@
+experience:
+  - title: POST-DOC  
+    period: April 2022 - May 2025
+    institution: University of Maryland, USA
+    details:
+      - Lead Galactic Science Working Group in VERITAS collaboration. Develop and oversee the Galactic science program for the collaboration of more than 100 scientists. Established Galactic observing priorities for ∼ 40% of VERITAS observations. Ensured data are taken, analyzed, and brought to publication in a timely fashion.
+      - Developed a Gammapy plugin for the 3ML software framework to integrate complex and heterogeneous data formats and data types into existing and newly developed analysis chains, enabling coherent, joint scientific interpretation across multiple observatories.
+      - Mentor 3 PhD students, providing guidance on research projects, data analysis techniques, software development and career development. Foster a collaborative and inclusive research environment that promotes the growth and success of junior scientists. 
+      - Authored and secured successful research proposal funding from NASA as principal investigator to lead astrophysics research projects ($70000).
+  - title: POST-DOC  
+    period: March 2021 - April 2022 
+    institution: University of Delaware, USA
+    details:
+    - Developed a Monte Carlo simulation pipeline generating electron/positron
+      and proton air showers to model detector response for cosmic-ray electron
+      spectrum measurement; extracted image-level features from simulated shower
+      events and trained Random Forest classifier to
+      separate electron/positron signal from the overwhelming proton background,
+      achieving 90% background rejection while preserving high signal efficiency.
+    - Analyzed 6 TB of VERITAS observations of the extremly high energy source LHAASO J2108+5157, leading to a significant improvement in spectral upper limit and characterization of the gamma-ray emission.
+      
+
+  - title: POST-DOC 
+    period: May 2018 - January 2021 
+    institution: McGill University, Canada
+    details:
+      - Analyzed 2 TB of VERITAS telescope data using spatial-temporal clustering to detect rare signals associated with primordial black hole evaporation, leading to a 2x improvement in upper limit constraints compared to previous bench marks.
+      - Led observation shifts for the VERITAS telescope and trained junior team members to become proficient in data acquisition and instrument operations, ensuring the safe handling of a multi-million-dollar telescope observatory.
+      - Contributed to peer-reviewed publications and delivered scientific presentations at international conferences.
+  - title: PHD STUDENT 
+    period: September 2010 - May 2018 
+    institution: University of Delaware, USA
+    details:
+      - Led the assembly, testing, and commissioning of photomultiplier tube (PMT) assemblies for the VERITAS telescope camera upgrade, resulting in a 50% increase in photon detection efficiency and a 30% reduction in the triggering threshold.
+      #- Installed pressure sensors within critical telescope data acquisition systems, converted sensor outputs into electrical signals, processed the data in real time, and integrated it into the front-end control panel to enable immediate monitoring and rapid response from the control room, enhancing telescope safety.
+      #- Designed and assembled a low-cost, small-scale very-high-energy gamma-ray telescope prototype using off-the-shelf mirrors, a custom dish, and a mount to construct a functional optical system.
+      - Optimized VERITAS hardware trigger conditions through advanced data analysis, reducing data file size by ~5% and detector dead time by ~10%.
+      - Performed Monte Carlo Cosmic-ray shower simulations to study the effect of atmosphere on VERITAS spectral measurements, leading to improved understanding of systematic uncertainties and more accurate energy reconstruction. Awarded the iProgress Scholarship from the Helmholtz Alliance for Astroparticle Physics (HAP), Germany, a competitive award granted to outstanding early-career scientists in recognition of research excellence and contributions to astroparticle physics.
+      - Processed and analyzed large-scale gamma-ray observation data using machine learning (boosted decision tree) to extract signals from background noise and characterize the physical processes driving particle acceleration and emission in supernova remnants. 
+      - Awarded a competitive Dissertation Fellowship in recognition of academic excellence and impactful contributions to gamma-ray astronomy.

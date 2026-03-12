@@ -1,0 +1,13 @@
+- title: "Understanding activation functions"
+  image: "/assets/images/activation_function.png"
+  description: |
+    This Streamlit app visually demonstrates how a neural network can approximate different nonlinear functions using various activation functions. It shows the power of neural networks and highlights why nonlinear activation is crucial in building complex models.
+  liveLink: "https://activation-functions-vg3k6bsno5prkvzydf99jo.streamlit.app/"
+  githubLink: "https://github.com/skumarudel/activation-functions"
+
+- title: "PCA analysis of S&P 500 stocks"
+  image: "/assets/images/pca.png"
+  description: |
+    This project explores the structure of S&P 500 stock returns using Principal Component Analysis (PCA). The Streamlit app lets you interactively visualize how a few principal components capture most of the variance, see factor loadings, and get intuition for market-wide vs sector-specific movements in the index.
+  liveLink: "https://sp500-pca-ml-gkggs6kcmtyvwuhyjyubmk.streamlit.app/"
+  githubLink: "https://github.com/skumarudel/sp500-pca-ml"
