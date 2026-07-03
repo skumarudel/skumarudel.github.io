@@ -1,8 +1,7 @@
 name: "Dr. Sajan Kumar"
 title: "Data Scientist"
 bio: |
-  I am an astrophysicist with a PhD and over 10 years of hands-on experience in large-scale data analysis, machine learning, and scientific computing. My research investigates the origin and nature of high-energy cosmic rays produced by some of the most extreme phenomena in the universe — supernovae and their remnants, pulsars and pulsar wind nebulae, gamma-ray bursts, and accreting black holes.
-
+  I am an astrophysicist with a PhD and over 10 years of experience working at the intersection of large-scale scientific data analysis, machine learning, and computational pipeline development, with a focus on designing scalable data pipelines.
   I specialize in extracting physical signals from high-dimensional, background-dominated datasets collected by ground-based gamma-ray observatories, including [VERITAS](https://veritas.sao.arizona.edu) and [HAWC](https://www.hawc-observatory.org). I have developed end-to-end data processing pipelines, implemented advanced statistical models, and applied machine learning techniques to detect rare astrophysical events in high-dimensional data.
   
   Over the course of my career, I have developed strong expertise in:
@@ -22,7 +21,7 @@ bio: |
 
 
   <br>
-  I am seeking positions in industry or academia where large-scale data analysis, machine learning, and LLMs solve real-world problems.		 
+  I am seeking positions in industry where large-scale data pipelines, machine learning, and LLMs solve real-world problems.		 
 
 
 email: skumarudel@gmail.com
