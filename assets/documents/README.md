@@ -1,5 +1,4 @@
 Place your PDF files here:
-- `cv.pdf` — full CV
-- `resume.pdf` — short resume
+- `Resume_SK.pdf` — resume
 
-The CV page will link to and embed these files.
+The Resume page embeds this file.
