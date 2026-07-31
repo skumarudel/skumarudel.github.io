@@ -21,7 +21,7 @@
 title: Dr. Sajan Kumar
 email: skumarudel@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Sajan Kumar, a Data scientist and Astrophysicist. 
+  I am Sajan Kumar, a Data engineer and Astrophysicist. 
   On this site, I share my projects, blogs, and thoughts on Data science, Data engineering and Astrophysics.
 
 baseurl: "" # the subpath of your site, e.g. /blog

@@ -154,12 +154,25 @@ header {
   border-bottom: 1px solid var(--color-border);
 }
 
+.site-branding {
+  display: inline-block;
+}
+
 .site-title {
   display: inline-block;
   font-family: var(--font-family-headings), sans-serif;
   font-size: var(--font-size-h3); /* Using h3 size for site title */
   font-weight: 500;
   letter-spacing: 1px;
+  margin: 0;
+}
+
+.site-headline {
+  margin: var(--spacing-xs) 0 0;
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-text-muted, #555);
+  letter-spacing: 0.3px;
 }
 
 .site-title a {

@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <header>
   <div class="container">
-    <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.data.bio.name }}</a></h1>
+    <div class="site-branding">
+      <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.data.bio.name }}</a></h1>
+      {% if page.url == '/' and site.data.bio.headline %}
+      <p class="site-headline">{{ site.data.bio.headline }}</p>
+      {% endif %}
+    </div>
     <div class="search-container">
       <input type="text" placeholder="Search..." id="search-input">
       <button onclick="performSearch()" data-baseurl="{{ site.baseurl }}"><img src="{{ site.baseurl }}/assets/images/search-icon.svg" alt="Search"></button>

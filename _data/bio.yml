@@ -1,27 +1,23 @@
 name: "Dr. Sajan Kumar"
-title: "Data Scientist"
+title: "Data Engineer"
+headline: "Data Engineer & ML Engineer | 10+ Years Building Large-Scale Data Pipelines"
 bio: |
-  I am an astrophysicist with a PhD and over 10 years of experience working at the intersection of large-scale scientific data analysis, machine learning, and computational pipeline development, with a focus on designing scalable data pipelines.
-  I specialize in extracting physical signals from high-dimensional, background-dominated datasets collected by ground-based gamma-ray observatories, including [VERITAS](https://veritas.sao.arizona.edu) and [HAWC](https://www.hawc-observatory.org). I have developed end-to-end data processing pipelines, implemented advanced statistical models, and applied machine learning techniques to detect rare astrophysical events in high-dimensional data.
+  I am a data engineer and machine learning practitioner with 10+ years of experience building large-scale, production-grade data pipelines. 
+  My background is in astrophysics - I hold a PhD and spent over a decade processing terabyte-scale data from gamma-ray observatories including [VERITAS](https://veritas.sao.arizona.edu) and [HAWC](https://www.hawc-observatory.org). 
+  I have since applied that same rigor to industry-focused data problems. I design end-to-end pipelines (Airflow, HPC/Slurm, Docker), build ML models for anomaly detection and classification on high-dimensional, noisy datasets, and develop LLM/RAG systems for semantic search and retrieval.
+  <br>
+  **I am seeking Data engineering / Analytics engineering roles in industry.**
   
   Over the course of my career, I have developed strong expertise in:
-   - **Python scientific stack** — NumPy, Scipy, pandas, scikit-learn, PyTorch, and custom analysis frameworks built for terabyte-scale telescope data
-   - **Machine learning** — Anomaly detection, classification, and clustering on high-dimensional imbalanced datasets; model evaluation under real-world noise conditions
-   - **LLM pipelines** — RAG system design, semantic search with dense embeddings, and query generation for scientific literature retrieval
-   - **Statistical modelling** — Maximum likelihood estimation, Bayesian inference, and hypothesis testing on sparse astrophysical signals
-   - **Data visualization** —  Matplotlib, Plotly, and interactive dashboards for exploratory analysis (streamlit) and publication-quality figures
-   - **Data engineering** — End-to-end pipeline design, workflow automation (Airflow), and distributed processing on HPC clusters using Slurm, containerization with Docker
-   - **Data infrastructure & tooling** — Relational databases (PostgreSQL, MySQL), Vector databases (chromadb), and Git-based collaborative workflows
-   - **Team leadership** — Led cross-institutional research collaborations across multiple countries; mentored graduate students and junior researchers
-   - **Scientific communication** — authored 50+ peer-reviewed publications
-    in high-impact journals (ApJ, A&A, MNRAS); delivered 20+ presentations
-    at international conferences (ICRC, HEAD, TeVPA, NASA, AAS); experienced in
-    translating complex technical results into clear narratives for
-    both specialist and non-specialist audiences.
 
-
-  <br>
-  I am seeking positions in industry where large-scale data pipelines, machine learning, and LLMs solve real-world problems.		 
+  - **Data Engineering** — End-to-end pipeline design, Data modeling, workflow automation (Airflow), distributed processing on HPC/Slurm, containerization (Docker)
+  - **Machine Learning** — Anomaly detection, classification, and clustering on high-dimensional, imbalanced data
+  - **LLM & RAG Pipelines** — Semantic search, dense embeddings, retrieval systems for large-scale text corpora
+  - **Data Infrastructure** — Relational databases (PostgreSQL, MySQL), vector databases (ChromaDB), Git-based workflows
+  - **Python Stack** — NumPy, SciPy, pandas, scikit-learn, PyTorch
+  - **Statistical Modeling** — Maximum likelihood estimation, Bayesian inference, hypothesis testing
+  - **Visualization** — Matplotlib, Plotly, Streamlit dashboards, Power BI
+  - **Leadership & Communication** — Led cross-institutional research teams; 50+ peer-reviewed publications, 20+ conference talks
 
 
 email: skumarudel@gmail.com
