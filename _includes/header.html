@@ -3,7 +3,7 @@
   <div class="container">
     <div class="site-branding">
       <h1 class="site-title"><a href="{{ site.baseurl }}/">{{ site.data.bio.name }}</a></h1>
-      {% if page.url == '/' and site.data.bio.headline %}
+      {% if site.data.bio.headline %}
       <p class="site-headline">{{ site.data.bio.headline }}</p>
       {% endif %}
     </div>
