@@ -27,7 +27,7 @@
 
   /* Typography */
   --font-family-headings: "Helvetica", Arial;
-  --font-family-base: "Avenir Light", Arial;
+  --font-family-base: "Inter", -apple-system, "Segoe UI";
   --font-size-base: 1rem;
   --font-size-sm: 0.875rem;
   --font-size-xs: 0.8rem;
@@ -102,6 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { font-size: var(--font-size-h1); }
 h2 { font-size: var(--font-size-h2); }
+h1, h2 { letter-spacing: -0.01em; }
 h3 { font-size: var(--font-size-h3); }
 h4 { font-size: var(--font-size-h4); }
 h5 { font-size: var(--font-size-h5); }
@@ -136,8 +137,8 @@ li {
 body {
   font-family: var(--font-family-base), sans-serif;
   font-size: var(--font-size-p3); /* Body text uses p3 size */
-  line-height: var(--line-height-base);
-  color: var(--color-text);
+  line-height: 1.7;
+  color: #2b2b2b;
   background-color: var(--color-background);
 }
 
@@ -150,20 +151,22 @@ body {
 
 /* ===== HEADER STYLES ===== */
 header {
-  padding: var(--spacing-lg) 0;
+  padding: 2rem 0 1.25rem;
   border-bottom: 1px solid var(--color-border);
 }
 
 .site-branding {
   display: inline-block;
+  max-width: 70%;
 }
 
 .site-title {
   display: inline-block;
   font-family: var(--font-family-headings), sans-serif;
-  font-size: var(--font-size-h3); /* Using h3 size for site title */
+  font-size: 2.5rem;
   font-weight: 500;
   letter-spacing: 1px;
+  line-height: 1.2;
   margin: 0;
 }
 
@@ -173,6 +176,7 @@ header {
   font-weight: 400;
   color: var(--color-text-muted, #555);
   letter-spacing: 0.3px;
+  text-wrap: balance;
 }
 
 .site-title a {
@@ -352,40 +356,188 @@ nav {
   object-fit: cover;
 }
 
-/* About page hero layout */
-.about-hero {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  gap: calc(var(--spacing-xxxl) * 1.2);
-  margin-top: var(--spacing-xxl);
-  margin-bottom: var(--spacing-xl);
+/* About page top: profile photo, intro, telescope photo */
+.about-top {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr) 280px;
+  gap: 1.5rem 2.5rem;
+  align-items: start;
+  margin-top: 1.5rem;
 }
 
 .about-profile img {
-  width: 260px;
-  height: 260px;
+  width: 220px;
+  height: 220px;
   border-radius: var(--border-radius-circle);
   object-fit: cover;
 }
 
+.about-intro {
+  max-width: 700px;
+}
+
+.about-intro h2 {
+  font-size: 2.25rem;
+  margin: 0 0 0.75rem;
+}
+
+.about-intro p {
+  font-size: var(--font-size-lg);
+}
+
+.about-intro a {
+  color: #2a5bd7;
+  text-decoration: underline;
+  text-decoration-color: rgba(42, 91, 215, 0.35);
+  text-underline-offset: 3px;
+}
+
+.about-intro a:hover {
+  text-decoration-color: #2a5bd7;
+}
+
+.about-intro .cta-box {
+  margin-bottom: 0;
+}
+
 .about-veritas {
-  max-width: 380px;
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
 .about-veritas img {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 220px;
+  object-fit: cover;
+  object-position: 52% center;
   border-radius: var(--border-radius-lg);
   box-shadow: var(--box-shadow-lg);
 }
 
 .about-veritas figcaption {
-  margin-top: var(--spacing-sm);
-  font-size: var(--font-size-sm);
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  font-style: italic;
   color: var(--color-text-lighter);
+}
+
+/* About page job-seeking call-to-action */
+.cta-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+  background: #f0f5ff;
+  border-left: 4px solid #2a5bd7;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.cta-box .cta-btn {
+  background: #2a5bd7;
+  color: #fff;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.cta-box .cta-btn:hover {
+  background: #1f47ad;
+}
+
+/* About page credentials strip */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+  margin: 3rem 0 2rem;
+  gap: 1rem;
+  color: #555;
+}
+
+@media (max-width: 1100px) {
+  .about-top {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .about-veritas {
+    grid-column: 1 / -1;
+    justify-self: stretch;
+  }
+
+  .about-veritas img {
+    height: auto;
+    aspect-ratio: 3 / 1;
+    object-position: center bottom;
+  }
+}
+
+@media (max-width: 900px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.stats span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2a5bd7;
+}
+
+/* About page skills grid */
+.skills-heading {
+  font-size: var(--font-size-h5);
+  margin: var(--spacing-xl) 0 0;
+  padding-top: var(--spacing-xl);
+  border-top: 1px solid #e3e6ea;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 0;
+}
+
+.skill-card {
+  border: 1px solid #e3e6ea;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.skill-card:hover {
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.skill-card h3 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.5rem;
+}
+
+.chips span {
+  background: #eef2fb;
+  color: #2a3f7a;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
 .intro {
@@ -564,6 +716,18 @@ nav {
   font-size: var(--font-size-h5);
   margin-bottom: var(--spacing-md);
   color: var(--color-primary);
+}
+
+.blog-card .project-card-image img {
+  object-fit: contain;
+  background-color: #fff;
+}
+
+.blog-card-date {
+  margin-top: calc(var(--spacing-md) * -0.5);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
 }
 
 .project-card-description {
@@ -1038,10 +1202,30 @@ figcaption {
     text-align: center;
   }
 
+  .site-branding {
+    display: block;
+    max-width: none;
+  }
+
+  .site-headline {
+    text-align: center;
+  }
+
   .search-container {
     float: none;
     text-align: center;
     margin-top: var(--spacing-lg);
+  }
+
+  /* About page top stacks: photo above intro */
+  .about-top {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .about-profile img {
+    width: 180px;
+    height: 180px;
   }
 
   /* Navigation responsive */

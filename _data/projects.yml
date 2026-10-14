@@ -1,9 +1,14 @@
-- title: "Understanding activation functions"
-  image: "/assets/images/activation_function.png"
+- title: "Job Agent Lab: Tailored cover letters, resumes, and interview preparation"
+  image: "/assets/images/job_agent_lab.svg"
   description: |
-    This Streamlit app visually demonstrates how a neural network can approximate different nonlinear functions using various activation functions. It shows the power of neural networks and highlights why nonlinear activation is crucial in building complex models.
-  liveLink: "https://activation-functions-vg3k6bsno5prkvzydf99jo.streamlit.app/"
-  githubLink: "https://github.com/skumarudel/activation-functions"
+    An agent-based system that tailors my job applications. I collect job postings I want to apply for in a Google Sheet; a batch pipeline scrapes each posting with Selenium, uses an LLM to analyze the role's requirements and skills, stores everything in SQLite, and generates a cover letter and resume tailored to that role. Google ADK agents then let me refine them in a multi-turn chat, or practice a typed phone screen, technical interview, or behavioral interview based on my resume and the role. It runs on local models through Ollama as well as AWS Bedrock models (Claude and Qwen), and is tested with pytest in CI.
+  githubLink: "https://github.com/skumarudel/job-agent-lab"
+
+- title: "Hospital patient analytics with ETL, dbt, and Power BI"
+  image: "/assets/images/hospital_dashboard.png"
+  description: |
+    An end-to-end analytics project for a hospital. A Python ETL pipeline loads raw Excel data into DuckDB, and dbt models clean and transform it into silver-layer dimension and fact tables for patients, doctors, departments, diagnoses, treatments, and visits. A Power BI dashboard built on a star schema tracks visit volume, billing, wait times, and patient ratings, with dedicated pages for patients, doctors, and departments.
+  githubLink: "https://github.com/skumarudel/dbt-powerbi-analytics"
 
 - title: "PCA analysis of S&P 500 stocks"
   image: "/assets/images/pca.png"
@@ -11,3 +16,10 @@
     This project explores the structure of S&P 500 stock returns using Principal Component Analysis (PCA). The Streamlit app lets you interactively visualize how a few principal components capture most of the variance, see factor loadings, and get intuition for market-wide vs sector-specific movements in the index.
   liveLink: "https://sp500-pca-ml-gkggs6kcmtyvwuhyjyubmk.streamlit.app/"
   githubLink: "https://github.com/skumarudel/sp500-pca-ml"
+
+- title: "Understanding activation functions"
+  image: "/assets/images/activation_function.png"
+  description: |
+    This Streamlit app visually demonstrates how a neural network can approximate different nonlinear functions using various activation functions. It shows the power of neural networks and highlights why nonlinear activation is crucial in building complex models.
+  liveLink: "https://activation-functions-vg3k6bsno5prkvzydf99jo.streamlit.app/"
+  githubLink: "https://github.com/skumarudel/activation-functions"

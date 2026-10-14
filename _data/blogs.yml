@@ -1,0 +1,6 @@
+- title: "Two Schools of Thought in Artificial Intelligence"
+  date: "October 8, 2026"
+  image: "https://cdn-images-1.medium.com/max/900/1*lk77glkrqUYLqAAlL2n_kQ.png"
+  description: |
+    How deep learning and reinforcement learning blended into today's powerful agents. This post traces two schools of AI; **deep learning**, which generalizes from examples, and **reinforcement learning**, which learns from consequences, and how they came together, from DQN to modern LLMs.
+  link: "https://medium.com/@skumarudel/two-schools-of-thought-in-artificial-intelligence-8e9583ec6681"
