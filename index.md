@@ -5,6 +5,13 @@ title: About me
 <div class="about-top">
   <div class="about-profile">
     <img src="/assets/images/ProfilePic-v3.png" alt="Sajan Kumar">
+    <ul class="affiliations">
+    {% for place in site.data.bio.affiliations %}
+      <li>
+        <a class="affiliation-badge affiliation-{{ place.slug }}" href="{{ place.url }}" target="_blank" rel="noopener">{{ place.name }}</a>
+      </li>
+    {% endfor %}
+    </ul>
   </div>
   <div class="about-intro">
 {{ site.data.bio.intro | markdownify }}

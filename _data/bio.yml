@@ -9,6 +9,16 @@ intro: |
   Astrophysics PhD turned AI/data engineer, with 10+ years of experience analyzing large-scale datasets
   from gamma-ray observatories like [VERITAS](https://veritas.sao.arizona.edu) and [HAWC](https://www.hawc-observatory.org);
   from building data pipelines to data modeling and ML training. I now apply that same rigor to industry problems.
+affiliations:
+  - name: "University of Delaware"
+    slug: delaware
+    url: "https://www.udel.edu/academics/colleges/cas/units/departments/physics-astronomy/"
+  - name: "University of Maryland"
+    slug: maryland
+    url: "https://cmns.umd.edu/news-events/news/physical-sciences-complex"
+  - name: "McGill University"
+    slug: mcgill
+    url: "https://www.physics.mcgill.ca/"
 seeking: "Open to Data / AI / Analytics Engineering roles"
 stats:
   - value: "10+"
