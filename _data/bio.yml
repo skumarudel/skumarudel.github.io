@@ -34,27 +34,27 @@ skills:
   - icon: "🛠️"
     title: "Data Engineering & Infrastructure"
     items: ["ETL/ELT Pipelines", "Data Ingestion", "Data Quality Automation", "PySpark", "HPC Clusters"]
-  - icon: "☁️"
-    title: "Cloud & Data Platforms"
-    items: ["AWS (S3, Glue, Athena, Redshift)", "AWS Bedrock", "Databricks", "Apache Airflow"]
-  - icon: "💻"
-    title: "Programming"
-    items: ["Python", "SQL", "C++", "Bash/Linux"]
-  - icon: "📈"
-    title: "Business Intelligence"
-    items: ["Power BI", "DAX", "Semantic Modeling", "Streamlit"]
-  - icon: "🚀"
-    title: "Development & Deployment"
-    items: ["Git/GitHub", "Docker", "CI/CD", "Workflow Orchestration"]
-  - icon: "🧠"
-    title: "Machine Learning"
-    items: ["Regression & Classification", "Clustering", "Dimensionality Reduction", "Time Series (ARIMA, LSTM)"]
   - icon: "🤖"
     title: "AI & LLM Engineering"
     items: ["LLMs", "RAG", "Prompt Engineering", "LLM Evaluation", "Agentic AI Apps"]
   - icon: "📊"
     title: "Statistics"
     items: ["Likelihood Analysis", "Bayesian Analysis", "Hypothesis Testing", "Monte Carlo Simulations"]
+  - icon: "🧠"
+    title: "Machine Learning"
+    items: ["Regression & Classification", "Clustering", "Dimensionality Reduction", "Time Series (ARIMA, LSTM)"]
+  - icon: "💻"
+    title: "Programming"
+    items: ["Python", "SQL", "C++", "Bash/Linux"]
+  - icon: "☁️"
+    title: "Cloud & Data Platforms"
+    items: ["AWS (S3, Glue, Athena, Redshift)", "AWS Bedrock", "Databricks", "Apache Airflow"]
+  - icon: "🚀"
+    title: "Development & Deployment"
+    items: ["Git/GitHub", "Docker", "CI/CD", "Workflow Orchestration"]
+  - icon: "📈"
+    title: "Business Intelligence"
+    items: ["Power BI", "DAX", "Semantic Modeling", "Streamlit"]
 
 
 email: skumarudel@gmail.com
